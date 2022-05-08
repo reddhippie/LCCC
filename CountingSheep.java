@@ -8,23 +8,23 @@ public class CountingSheep
 		Scanner readLine = new Scanner(System.in); 
 			
 			String instructions = "Please, input answer when prompted \n";
-			String countAgain	= "";
-			String operations	= "How would you like to count the sheep?\n1: Addition\n2: Subtraction\n3: Multiplication";
-			String greeting  	= "Welcome to Sleep Sheep,count the sheep till you sleep";
+			String countAgain   = "";
+			String operations   = "How would you like to count the sheep?\n1: Addition\n2: Subtraction\n3: Multiplication";
+			String greeting     = "Welcome to Sleep Sheep,count the sheep till you sleep";
 			String userString   = "";
 			
 		do
 		{
-			int i				= 0;
-			int baw				= 0;
-			int sheepTotal		= 0;
-			int sheepProduct	= 0;
-			int leftOver		= 0;
-			int sheepSum		= 0;
-			int multBy			= 0;
-			int addBy			= 0;
-			int subBy			= 0;
-			int userInt         = 0;
+			int i		 = 0;
+			int baw		 = 0;
+			int sheepTotal	 = 0;
+			int sheepProduct = 0;
+			int leftOver	 = 0;
+			int sheepSum	 = 0;
+			int multBy	 = 0;
+			int addBy	 = 0;
+			int subBy	 = 0;
+			int userInt	 = 0;
 			
 			System.out.println ("\n" + greeting + "\n");
 			
